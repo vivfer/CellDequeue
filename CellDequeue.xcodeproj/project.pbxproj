@@ -14,6 +14,9 @@
 		BF36471F19E819F400D6BA6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF36471E19E819F400D6BA6F /* Images.xcassets */; };
 		BF36472219E819F400D6BA6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF36472019E819F400D6BA6F /* LaunchScreen.xib */; };
 		BF36472E19E819F400D6BA6F /* CellDequeueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF36472D19E819F400D6BA6F /* CellDequeueTests.m */; };
+		BF36473919E81A1C00D6BA6F /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF36473819E81A1C00D6BA6F /* MyCell.m */; };
+		BF36473C19E81B4E00D6BA6F /* Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF36473A19E81B4E00D6BA6F /* Selected.png */; };
+		BF36473D19E81B4E00D6BA6F /* Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF36473B19E81B4E00D6BA6F /* Unselected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		BF36472719E819F400D6BA6F /* CellDequeueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellDequeueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF36472C19E819F400D6BA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF36472D19E819F400D6BA6F /* CellDequeueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellDequeueTests.m; sourceTree = "<group>"; };
+		BF36473719E81A1C00D6BA6F /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		BF36473819E81A1C00D6BA6F /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		BF36473A19E81B4E00D6BA6F /* Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Selected.png; sourceTree = "<group>"; };
+		BF36473B19E81B4E00D6BA6F /* Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unselected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +88,14 @@
 		BF36471019E819F400D6BA6F /* CellDequeue */ = {
 			isa = PBXGroup;
 			children = (
+				BF36473A19E81B4E00D6BA6F /* Selected.png */,
+				BF36473B19E81B4E00D6BA6F /* Unselected.png */,
 				BF36471519E819F400D6BA6F /* AppDelegate.h */,
 				BF36471619E819F400D6BA6F /* AppDelegate.m */,
 				BF36471819E819F400D6BA6F /* ViewController.h */,
 				BF36471919E819F400D6BA6F /* ViewController.m */,
+				BF36473719E81A1C00D6BA6F /* MyCell.h */,
+				BF36473819E81A1C00D6BA6F /* MyCell.m */,
 				BF36471B19E819F400D6BA6F /* Main.storyboard */,
 				BF36471E19E819F400D6BA6F /* Images.xcassets */,
 				BF36472019E819F400D6BA6F /* LaunchScreen.xib */,
@@ -199,9 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF36473C19E81B4E00D6BA6F /* Selected.png in Resources */,
 				BF36471D19E819F400D6BA6F /* Main.storyboard in Resources */,
 				BF36472219E819F400D6BA6F /* LaunchScreen.xib in Resources */,
 				BF36471F19E819F400D6BA6F /* Images.xcassets in Resources */,
+				BF36473D19E81B4E00D6BA6F /* Unselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF36471A19E819F400D6BA6F /* ViewController.m in Sources */,
+				BF36473919E81A1C00D6BA6F /* MyCell.m in Sources */,
 				BF36471719E819F400D6BA6F /* AppDelegate.m in Sources */,
 				BF36471419E819F400D6BA6F /* main.m in Sources */,
 			);
